@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>String Methods</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>String Methods</h1>
+    <p>Original string: <span id="original">Hello, world!</span></p>
+    <button onclick="concatString()">Concatenate string</button>
+    <p>New string: <span id="concatenated"></span></p>
+    <button onclick="sliceString()">Slice string</button>
+    <p>Sliced string: <span id="sliced"></span></p>
+    <button onclick="toStringString()">Convert to string</button>
+    <p>Converted string: <span id="tostring"></span></p>
+    <button onclick="toPrecisionString()">Convert to precision</button>
+    <p>Precision string: <span id="toprecision"></span></p>
+  </body>
+</html>
